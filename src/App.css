@@ -1,7 +1,5 @@
 .background {
     position: absolute;
-    content: '';
-    display: block;
     top: 0;
     right: 0;
     bottom: 0;
