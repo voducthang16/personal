@@ -475,8 +475,8 @@ export const PythonIcon = ({ height, width, className }: IconsProps) => {
                 y1="479.369"
                 y2="52.058"
             >
-                <stop offset="0" stop-color="#5a9fd4" />
-                <stop offset="1" stop-color="#306998" />
+                <stop offset="0" stopColor="#5a9fd4" />
+                <stop offset="1" stopColor="#306998" />
             </linearGradient>
             <linearGradient
                 id="path1950_00000075154291388394646000000000998535923326963881_"
@@ -487,8 +487,8 @@ export const PythonIcon = ({ height, width, className }: IconsProps) => {
                 y1="-206.531"
                 y2="44.386"
             >
-                <stop offset="0" stop-color="#ffd43b" />
-                <stop offset="1" stop-color="#ffe873" />
+                <stop offset="0" stopColor="#ffd43b" />
+                <stop offset="1" stopColor="#ffe873" />
             </linearGradient>
             <g>
                 <g id="g2303">
@@ -525,10 +525,10 @@ export const GitIcon = ({ height, width, className }: IconsProps) => {
                 y1="63.89"
                 y2="130.4"
             >
-                <stop offset="0" stop-color="#a63823" />
-                <stop offset=".17" stop-color="#a63823" stop-opacity=".86" />
-                <stop offset=".52" stop-color="#a63823" stop-opacity=".51" />
-                <stop offset=".97" stop-color="#a63823" stop-opacity="0" />
+                <stop offset="0" stopColor="#a63823" />
+                <stop offset=".17" stopColor="#a63823" stopOpacity=".86" />
+                <stop offset=".52" stopColor="#a63823" stopOpacity=".51" />
+                <stop offset=".97" stopColor="#a63823" stopOpacity="0" />
             </linearGradient>
             <g id="Layer_2" data-name="Layer 2">
                 <g id="_76.git" data-name="76.git">
@@ -625,9 +625,9 @@ export const MySqlIcon = ({ height, width, className }: IconsProps) => {
                 y2="36.899"
                 gradientUnits="userSpaceOnUse"
             >
-                <stop offset="0" stop-color="#058f92" />
-                <stop offset=".5" stop-color="#038489" />
-                <stop offset="1" stop-color="#026d71" />
+                <stop offset="0" stopColor="#058f92" />
+                <stop offset=".5" stopColor="#038489" />
+                <stop offset="1" stopColor="#026d71" />
             </linearGradient>
             <path
                 fill="url(#eDMgMixeD6M6EYSYBuJ8ya)"
@@ -641,8 +641,8 @@ export const MySqlIcon = ({ height, width, className }: IconsProps) => {
                 y2="35.217"
                 gradientUnits="userSpaceOnUse"
             >
-                <stop offset="0" stop-color="#ff9c0f" />
-                <stop offset=".813" stop-color="#d67e00" />
+                <stop offset="0" stopColor="#ff9c0f" />
+                <stop offset=".813" stopColor="#d67e00" />
             </linearGradient>
             <path
                 fill="url(#eDMgMixeD6M6EYSYBuJ8yb)"
@@ -656,9 +656,9 @@ export const MySqlIcon = ({ height, width, className }: IconsProps) => {
                 y2="26.75"
                 gradientUnits="userSpaceOnUse"
             >
-                <stop offset="0" stop-color="#058f92" />
-                <stop offset=".5" stop-color="#038489" />
-                <stop offset="1" stop-color="#026d71" />
+                <stop offset="0" stopColor="#058f92" />
+                <stop offset=".5" stopColor="#038489" />
+                <stop offset="1" stopColor="#026d71" />
             </linearGradient>
             <path
                 fill="url(#eDMgMixeD6M6EYSYBuJ8yc)"
@@ -685,15 +685,15 @@ export const MongoDBIcon = ({ height, width, className }: IconsProps) => {
                     gradientTransform="matrix(-0.977, -0.323, -0.29, 0.877, -375.944, -928.287)"
                     gradientUnits="userSpaceOnUse"
                 >
-                    <stop offset="0.231" stop-color="#999875" />
-                    <stop offset="0.563" stop-color="#9b9977" />
-                    <stop offset="0.683" stop-color="#a09f7e" />
-                    <stop offset="0.768" stop-color="#a9a889" />
-                    <stop offset="0.837" stop-color="#b7b69a" />
-                    <stop offset="0.896" stop-color="#c9c7b0" />
-                    <stop offset="0.948" stop-color="#deddcb" />
-                    <stop offset="0.994" stop-color="#f8f6eb" />
-                    <stop offset="1" stop-color="#fbf9ef" />
+                    <stop offset="0.231" stopColor="#999875" />
+                    <stop offset="0.563" stopColor="#9b9977" />
+                    <stop offset="0.683" stopColor="#a09f7e" />
+                    <stop offset="0.768" stopColor="#a9a889" />
+                    <stop offset="0.837" stopColor="#b7b69a" />
+                    <stop offset="0.896" stopColor="#c9c7b0" />
+                    <stop offset="0.948" stopColor="#deddcb" />
+                    <stop offset="0.994" stopColor="#f8f6eb" />
+                    <stop offset="1" stopColor="#fbf9ef" />
                 </linearGradient>
                 <linearGradient
                     id="b"
@@ -704,8 +704,8 @@ export const MongoDBIcon = ({ height, width, className }: IconsProps) => {
                     gradientTransform="matrix(-0.977, -0.323, -0.29, 0.877, -375.944, -928.287)"
                     gradientUnits="userSpaceOnUse"
                 >
-                    <stop offset="0" stop-color="#48a547" />
-                    <stop offset="1" stop-color="#3f9143" />
+                    <stop offset="0" stopColor="#48a547" />
+                    <stop offset="1" stopColor="#3f9143" />
                 </linearGradient>
                 <linearGradient
                     id="c"
@@ -716,10 +716,10 @@ export const MongoDBIcon = ({ height, width, className }: IconsProps) => {
                     gradientTransform="matrix(-0.977, -0.323, -0.29, 0.877, -375.944, -928.287)"
                     gradientUnits="userSpaceOnUse"
                 >
-                    <stop offset="0" stop-color="#41a247" />
-                    <stop offset="0.352" stop-color="#4ba74b" />
-                    <stop offset="0.956" stop-color="#67b554" />
-                    <stop offset="1" stop-color="#69b655" />
+                    <stop offset="0" stopColor="#41a247" />
+                    <stop offset="0.352" stopColor="#4ba74b" />
+                    <stop offset="0.956" stopColor="#67b554" />
+                    <stop offset="1" stopColor="#69b655" />
                 </linearGradient>
             </defs>
             <title>file_type_mongo</title>
@@ -739,9 +739,6 @@ export const MongoDBIcon = ({ height, width, className }: IconsProps) => {
     );
 };
 
-// width={width}
-// height={height}
-// className={className}
 export const GithubIcon = ({ height, width, className }: IconsProps) => {
     return (
         <svg
@@ -776,6 +773,66 @@ export const LinkedinIcon = ({ height, width, className }: IconsProps) => {
                     </g>
                 </g>
             </g>
+        </svg>
+    );
+};
+
+export const ArrowUpIcon = ({ height, width, className }: IconsProps) => {
+    return (
+        <svg
+            width={width}
+            height={height}
+            className={className}
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            viewBox="0 0 240.835 240.835"
+            enableBackground="new 0 0 240.835 240.835"
+        >
+            <g>
+                <path
+                    id="Expand_Less"
+                    d="M129.007,57.819c-4.68-4.68-12.499-4.68-17.191,0L3.555,165.803c-4.74,4.74-4.74,12.427,0,17.155
+       c4.74,4.74,12.439,4.74,17.179,0l99.683-99.406l99.671,99.418c4.752,4.74,12.439,4.74,17.191,0c4.74-4.74,4.74-12.427,0-17.155
+       L129.007,57.819z"
+                />
+            </g>
+        </svg>
+    );
+};
+
+export const MenuIcon = ({ height, width, className }: IconsProps) => {
+    return (
+        <svg
+            width={width}
+            height={height}
+            className={className}
+            id="icons"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <path d="m4 13h16a1 1 0 0 0 0-2h-16a1 1 0 0 0 0 2z" />
+            <path d="m20 5h-16a1 1 0 0 0 0 2h16a1 1 0 0 0 0-2z" />
+            <path d="m4 19h16a1 1 0 0 0 0-2h-16a1 1 0 0 0 0 2z" />
+        </svg>
+    );
+};
+
+// width={width}
+// height={height}
+// className={className}
+
+export const CloseIcon = ({ height, width, className }: IconsProps) => {
+    return (
+        <svg
+            width={width}
+            height={height}
+            className={className}
+            id="Icons"
+            viewBox="0 0 64 64"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <path d="m4.59 59.41a2 2 0 0 0 2.83 0l24.58-24.58 24.59 24.58a2 2 0 0 0 2.83-2.83l-24.59-24.58 24.58-24.59a2 2 0 0 0 -2.83-2.83l-24.58 24.59-24.59-24.58a2 2 0 0 0 -2.82 2.82l24.58 24.59-24.58 24.59a2 2 0 0 0 0 2.82z" />
         </svg>
     );
 };
