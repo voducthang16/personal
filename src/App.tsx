@@ -218,7 +218,7 @@ function App() {
                                     I also LOVE learning new technologies and using them to solve real-life's problems!
                                 </p>
                             </div>
-                            <div className="grid grid-cols-2 mt-6">
+                            <div className="grid grid-cols-1 md:grid-cols-2 mt-6">
                                 <div className="col-span-1 space-y-4">
                                     <h6 className="flex items-center space-x-2">
                                         <CalenderIcon width={16} height={16} />
@@ -251,7 +251,7 @@ function App() {
                             <div className="flex justify-center mt-6">
                                 <a
                                     target="_blank"
-                                    href="https://drive.google.com/file/d/15QtWh5jAB14GBu_-fZL4v6BKqB3qmrkb/view?usp=sharing"
+                                    href="https://drive.google.com/file/d/1vvxGORqomvGXRQZy-zizSTFMkvJbAsID/view?usp=sharing"
                                     className="block p-4 rounded-lg bg-primary hover:bg-primary_rgba transition-all text-white no-underline outline-none"
                                 >
                                     DOWNLOAD CV
@@ -343,39 +343,91 @@ function App() {
                     <div className="space-y-20">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                             <div className="col-span-1">
-                                <img className="w-full object-contain" src={education} alt="Education" />
-                            </div>
-                            <div className="col-span-1">
                                 <h5 className="mb-6 text-xl font-semibold text-[#333333]">
-                                    eCommerce Website - THANGVD
+                                    VoDucThang - Personal Website
                                 </h5>
                                 <div className="text-[#202020] text-sm font-light">
                                     <span className="mb-2 inline-block !font-medium">Description</span>
                                     <p>
-                                        This is my personal website, a website about selling courses online. Includes
-                                        pages such as Homepage, About, Courses, Couse Detail and Blog.
+                                        This is my personal project, a website to show information about me and some
+                                        project I had completed
                                     </p>
                                     <span className="my-2 inline-block !font-medium">Technology Used</span>
                                     <ul className="pl-4 space-y-2 list-disc">
-                                        <li>HTML5</li>
-                                        <li>CSS3</li>
-                                        <li>Javascript</li>
+                                        <li>React & Vite</li>
+                                        <li>Tailwind CSS</li>
                                     </ul>
                                     <span className="my-2 inline-block !font-medium">Resources</span>
                                     <p>
                                         Access the project's source on{' '}
                                         <a
                                             className="no-underline outline-none !font-medium !text-primary"
-                                            href="https://github.com/voducthang16/education"
                                             target="_blank"
+                                            href="https://github.com/voducthang16/personal"
                                         >
                                             Github
                                         </a>
                                     </p>
                                 </div>
                             </div>
+                            <div className="row-start-1 md:row-start-auto col-span-1">
+                                <img className="w-full object-contain" src={portfolio_img} alt="Education" />
+                            </div>
                         </div>
-                        <div className="grid grid-cols-1 grid-flow-dense md:grid-cols-2 gap-10">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+                            <div className="col-span-1">
+                                <img className="w-full object-contain" src={_5star} alt="Education" />
+                            </div>
+                            <div className="col-span-1">
+                                <h5 className="mb-6 text-xl font-semibold text-[#333333]">
+                                    eCommerce Website - 5Star Fashion
+                                </h5>
+                                <div className="text-[#202020] text-sm font-light">
+                                    <span className="mb-2 inline-block !font-medium">Description</span>
+                                    <p>
+                                        This is a group project, an e-commerce website about fashion and accessories.
+                                        The client side is built with React, Typescript, Tailwind and Chakra UI. It
+                                        allows users to create accounts, log in, and purchase products,... The server
+                                        side uses NodeJS, NextJS, Redis, PostgreSQL and Typescript to provide API when
+                                        requested by the client side.
+                                    </p>
+                                    <span className="my-2 inline-block !font-medium">Technology Used</span>
+                                    <ul className="pl-4 space-y-2 list-disc">
+                                        <li>React, Redux Toolkit, Typescript</li>
+                                        <li>Tailwind CSS, SCSS, Chakra UI</li>
+                                        <li>Node.js, NextJS, Redis, PostgreSQL</li>
+                                    </ul>
+                                    <span className="my-2 inline-block !font-medium">Resources</span>
+                                    <p>
+                                        Access the project's source on Github:{' '}
+                                        <a
+                                            className="no-underline outline-none !font-medium !text-primary"
+                                            href="https://github.com/voducthang16/5star-ecommerce-fe"
+                                            target="_blank"
+                                        >
+                                            Client UI
+                                        </a>
+                                        {' - '}
+                                        <a
+                                            className="no-underline outline-none !font-medium !text-primary"
+                                            href="https://github.com/ttphat2805/5star-ecommerce-admin"
+                                            target="_blank"
+                                        >
+                                            Admin UI
+                                        </a>
+                                        {' - '}
+                                        <a
+                                            className="no-underline outline-none !font-medium !text-primary"
+                                            target="_blank"
+                                            href="https://github.com/nghi2001/5star_ecommerce_BE"
+                                        >
+                                            Backend
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                             <div className="col-span-1">
                                 <h5 className="mb-6 text-xl font-semibold text-[#333333]">
                                     eCommerce Website - THE HEAT
@@ -413,88 +465,36 @@ function App() {
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                             <div className="col-span-1">
-                                <img className="w-full object-contain" src={_5star} alt="Education" />
+                                <img className="w-full object-contain" src={education} alt="Education" />
                             </div>
                             <div className="col-span-1">
                                 <h5 className="mb-6 text-xl font-semibold text-[#333333]">
-                                    eCommerce Website - 5Star Fashion
+                                    eCommerce Website - THANGVD
                                 </h5>
                                 <div className="text-[#202020] text-sm font-light">
                                     <span className="mb-2 inline-block !font-medium">Description</span>
                                     <p>
-                                        This is a group project, an e-commerce website about fashion and accessories.
-                                        The client side is built with React, Typescript, Tailwind and Chakra UI. It
-                                        allows users to create accounts, log in, and purchase products,... The server
-                                        side uses NodeJS, Next.js, Redis, PostgreSQL and Typescript to provide API when
-                                        requested by the client side.
+                                        This is my personal website, a website about selling courses online. Includes
+                                        pages such as Homepage, About, Courses, Couse Detail and Blog.
                                     </p>
                                     <span className="my-2 inline-block !font-medium">Technology Used</span>
                                     <ul className="pl-4 space-y-2 list-disc">
-                                        <li>React, Redux Toolkit, Typescript</li>
-                                        <li>Tailwind CSS, SCSS, Chakra UI</li>
-                                        <li>Node.js, Next.js, Redis, PostgreSQL</li>
-                                    </ul>
-                                    <span className="my-2 inline-block !font-medium">Resources</span>
-                                    <p>
-                                        Access the project's source on Github:{' '}
-                                        <a
-                                            className="no-underline outline-none !font-medium !text-primary"
-                                            href="https://github.com/voducthang16/5star-ecommerce-fe"
-                                            target="_blank"
-                                        >
-                                            Client UI
-                                        </a>
-                                        {' - '}
-                                        <a
-                                            className="no-underline outline-none !font-medium !text-primary"
-                                            href="https://github.com/ttphat2805/5star-ecommerce-admin"
-                                            target="_blank"
-                                        >
-                                            Admin UI
-                                        </a>
-                                        {' - '}
-                                        <a
-                                            className="no-underline outline-none !font-medium !text-primary"
-                                            target="_blank"
-                                            href="https://github.com/nghi2001/5star_ecommerce_BE"
-                                        >
-                                            Backend
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-                            <div className="col-span-1">
-                                <h5 className="mb-6 text-xl font-semibold text-[#333333]">
-                                    VoDucThang - Personal Website
-                                </h5>
-                                <div className="text-[#202020] text-sm font-light">
-                                    <span className="mb-2 inline-block !font-medium">Description</span>
-                                    <p>
-                                        This is my personal project, a website to show information about me and some
-                                        project I had completed
-                                    </p>
-                                    <span className="my-2 inline-block !font-medium">Technology Used</span>
-                                    <ul className="pl-4 space-y-2 list-disc">
-                                        <li>React & Vite</li>
-                                        <li>Tailwind CSS</li>
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>Javascript</li>
                                     </ul>
                                     <span className="my-2 inline-block !font-medium">Resources</span>
                                     <p>
                                         Access the project's source on{' '}
                                         <a
                                             className="no-underline outline-none !font-medium !text-primary"
+                                            href="https://github.com/voducthang16/education"
                                             target="_blank"
-                                            href="https://github.com/voducthang16/personal"
                                         >
                                             Github
                                         </a>
                                     </p>
                                 </div>
-                            </div>
-                            <div className="row-start-1 md:row-start-auto col-span-1">
-                                <img className="w-full object-contain" src={portfolio_img} alt="Education" />
                             </div>
                         </div>
                     </div>
@@ -512,7 +512,7 @@ function App() {
                             <span className="absolute h-0.5 w-1/2 bg-primary left-1/2 -translate-x-1/2 -bottom-1"></span>
                         </h3>
                         <p className="mb-4 text-gray-500">You need more information? Contact me!</p>
-                        <p className="flex items-center justify-center space-x-2 text-gray-500">
+                        <p className="flex flex-col md:flex-row items-center justify-center space-x-2 text-gray-500">
                             <MailIcon width={16} height={16} className="fill-gray-500" />
                             <a className="font-semibold" href="mailto:voducthang16@gmail.com">
                                 Send me an email!
