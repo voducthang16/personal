@@ -26,6 +26,7 @@ import {
     PythonIcon,
     ReactIcon,
     StudyIcon,
+    SkypeIcon,
     VSCodeIcon,
 } from './components/Icons';
 import './App.css';
@@ -183,6 +184,13 @@ function App() {
                             <a
                                 className="no-underline outline-none"
                                 target="_blank"
+                                href="https://join.skype.com/invite/wcj8mwVc0f6a"
+                            >
+                                <SkypeIcon width={24} height={24} />
+                            </a>
+                            <a
+                                className="no-underline outline-none"
+                                target="_blank"
                                 href="https://github.com/voducthang16"
                             >
                                 <GithubIcon width={24} height={24} className="fill-primary md:fill-black" />
@@ -211,7 +219,7 @@ function App() {
                                 <p>
                                     My name is <span className="font-medium text-primary">Vo Duc Thang</span>.
                                 </p>
-                                <p>I am a Web Developer, and I'm very passionate and dedicated to my work.</p>
+                                <p>As a Web Developer, I'm very passionate and dedicated to my work.</p>
                                 <p>I have acquired the skills and knowledge necessary to make the project a success.</p>
                                 <p>I love listening to music and traveling with my family and friends.</p>
                                 <p>
@@ -233,7 +241,7 @@ function App() {
                                         <span>Phone: 0337563172</span>
                                     </h6>
                                 </div>
-                                <div className="col-span-1 space-y-4">
+                                <div className="col-span-1 space-y-4 mt-4 md:mt-0">
                                     <h6 className="flex items-center space-x-2">
                                         <PlayStationIcon width={16} height={16} className="fill-primary" />
                                         <span>Interest: Music, Travel</span>
@@ -350,7 +358,7 @@ function App() {
                                     <span className="mb-2 inline-block !font-medium">Description</span>
                                     <p>
                                         This is my personal project, a website to show information about me and some
-                                        project I had completed
+                                        project I had completed.
                                     </p>
                                     <span className="my-2 inline-block !font-medium">Technology Used</span>
                                     <ul className="pl-4 space-y-2 list-disc">
@@ -519,6 +527,18 @@ function App() {
                             </a>
                             <span>-</span>
                             <span>voducthang16@gmail.com</span>
+                        </p>
+                        <p className="my-2 lg:my-4 flex flex-col md:flex-row items-center justify-center space-x-2 text-gray-500">
+                            <PhoneIcon width={16} height={16} className="fill-gray-500" />
+                            <h6 className="font-semibold">Phone/Zalo</h6>
+                            <span>-</span>
+                            <span>0337563172</span>
+                        </p>
+                        <p className="my-2 lg:my-4 flex flex-col md:flex-row items-center justify-center space-x-2 text-gray-500">
+                            <SkypeIcon width={16} height={16} className="fill-gray-500" />
+                            <h6 className="font-semibold">Skype</h6>
+                            <span>-</span>
+                            <span>live:.cid.8a14b6999f64e61a</span>
                         </p>
                     </div>
                 </div>
